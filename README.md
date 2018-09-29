@@ -20,7 +20,7 @@ RESTfull API with [Express Framework](http://expressjs.com/). This is an API for
 
 ## Get all tasks from the list
 
-> Descirption
+> Description
 
 Get all tasks in the list.
 
@@ -67,7 +67,7 @@ Response is the array of task objects or empty array if there is no any task.
   ```
 ## Get a task by id
 
-> Descirption
+> Description
 
 Get a task in the list by task id.
 
@@ -108,7 +108,7 @@ Response is the array of task objects or empty array if the task does not exist.
   ```
 ## Edit information of the existing task
 
-> Descirption
+> Description
 
 Edit the information for the existing task by task id
 
@@ -143,7 +143,7 @@ Response is the objects of changed information.
   ```
 ## Add a new task
 
-> Descirption
+> Description
 
 Create a new task to the list.
 
@@ -186,7 +186,7 @@ Response is the objects of new task with task's information.
   ```
 ## Delete a task from the list
 
-> Descirption
+> Description
 
 Delete the exsiting task from the list by task id.
 
