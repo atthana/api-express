@@ -1,7 +1,7 @@
 # api-express
-RESTfull API with [Express Framework](http://expressjs.com/). 
-  - [Installation](#Installation)
-  - [API Documentation](#API-Documentation)
+RESTfull API with [Express Framework](http://expressjs.com/). This is an API for **To Do** task list.
+  - [Installation](#installation)
+  - [API Documentation](#api-documentation)
 
 # Installation
 1. Check list programs need to install
@@ -65,7 +65,7 @@ Response is the array of task objects or empty array if there is no any task.
         }
     ]
   ```
-## Get a tasks by id
+## Get a task by id
 
 > Descirption
 
@@ -79,7 +79,7 @@ URL : `http://localhost:3000/tasks/{id}`
 
 > API Response
 
-Response is the array of task objects or empty array if the task isn't exist.
+Response is the array of task objects or empty array if the task does not exist.
 
 > Example in JavaScript
 
@@ -145,7 +145,7 @@ Response is the objects of changed information.
 
 > Descirption
 
-Add a new task with the information.
+Create a new task to the list.
 
 > API Call
 
