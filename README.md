@@ -18,6 +18,14 @@ RESTfull API with [Express Framework](http://expressjs.com/). This is an API for
 ## Introduction
 **To Do API** provided the action to add new task, delete a task, get all tasks in the list, edit the existing task. 
 
+| API Call                                | Method        | Description                                                      |
+| ----------------------------------- |:-------------:| ----------------------------------------------------------------:|
+| `http://localhost:3000/tasks`       | `GET`         | [Get all tasks from the list](#get-all-tasks-from-the-list)      |
+| `http://localhost:3000/tasks/{id}`  | `GET`         | [Get a task by id](#get-a-task-by-id)                            |
+| `http://localhost:3000/tasks/{id}`  | `PUT`         | [Edit information of the existing task](#edit-information-of-the-existing-task)       |
+| `http://localhost:3000/tasks/{id}`  | `POST`        | [Add a new task](#add-a-new-task)                                |
+| `http://localhost:3000/tasks/{id}`  | `DELETE`      | [Delete a task from the list](#delete-a-task-from-the-list)                 |
+
 ## Get all tasks from the list
 
 > Description
