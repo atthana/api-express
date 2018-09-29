@@ -128,6 +128,8 @@ Method : `PUT`
 
 URL : `http://localhost:3000/tasks/{id}`
 
+Passing data : `JSON format`
+
 > API Response
 
 Response is the objects of changed information.
@@ -162,6 +164,8 @@ Create a new task to the list.
 Method : `POST`
 
 URL : `http://localhost:3000/tasks`
+
+Passing data : `JSON format`
 
 > API Response
 
