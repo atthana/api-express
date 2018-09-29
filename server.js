@@ -1,4 +1,3 @@
-// var express = require('express');
 var exp = require('express');
 var app = exp(); //constructor
 var bodyParser = require('body-parser');
