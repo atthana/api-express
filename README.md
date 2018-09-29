@@ -23,8 +23,10 @@ RESTfull API with [Express Framework](http://expressjs.com/). This is an API for
 | `http://localhost:3000/tasks`       | `GET`         | [Get all tasks from the list](#get-all-tasks-from-the-list)      |
 | `http://localhost:3000/tasks/{id}`  | `GET`         | [Get a task by id](#get-a-task-by-id)                            |
 | `http://localhost:3000/tasks/{id}`  | `PUT`         | [Edit information of the existing task](#edit-information-of-the-existing-task)       |
-| `http://localhost:3000/tasks/{id}`  | `POST`        | [Add a new task](#add-a-new-task)                                |
+| `http://localhost:3000/tasks`  | `POST`        | [Add a new task](#add-a-new-task)                                |
 | `http://localhost:3000/tasks/{id}`  | `DELETE`      | [Delete a task from the list](#delete-a-task-from-the-list)                 |
+
+> **NOTE:** **Task status** can be set via [Edit information of the existing task](#edit-information-of-the-existing-task) by passing the new status value when call the API.
 
 ## Get all tasks from the list
 
