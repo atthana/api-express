@@ -4,12 +4,15 @@ var bodyParser = require('body-parser');
 
 // configure app to use bodyParser()
 // this will let us get the data from a POST
-app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
 
 // add new task to list
 app.post('/notification', (req, res) => {
-    console.log(req.body);
+    console.log("----------request---------");
+    console.log(req);
+    console.log("----------parameters, query---------");
+    console.log(req.param, req.query);
     res.json({"result": "SUCCESS", "msg": "OK"})
 })
 
