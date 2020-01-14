@@ -10,7 +10,7 @@ app.use(bodyParser.json());
 // add new task to list
 app.post('/notification', (req, res) => {
     console.log(req.body);
-    res.json(req.body)
+    res.json({"result": "SUCCESS", "msg": "OK"})
 })
 
 app.get('/', (req, res) => {
